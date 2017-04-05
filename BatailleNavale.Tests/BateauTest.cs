@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using BatailleNavale;
 
 namespace BatailleNavale.Tests
 {
@@ -7,8 +8,11 @@ namespace BatailleNavale.Tests
     public class BateauTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void CreationBateauTest()
         {
+            Bateau bateau = new Bateau();
+            bateau.taille = 4; 
+            Assert.IsNotNull(bateau); 
         }
     }
 }
