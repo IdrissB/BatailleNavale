@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace BatailleNavale
 {
-    class Bateau
+    public class Bateau
     {
+        public int taille;
+        public static int id; 
+
+
     }
 }
