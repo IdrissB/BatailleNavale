@@ -12,7 +12,7 @@ namespace BatailleNavale.Tests
         {
             Bateau bateau = new Bateau();
             bateau.taille = 4; 
-            Assert.IsNotNull(bateau); 
+            Assert.IsNull(bateau); 
         }
     }
 }
