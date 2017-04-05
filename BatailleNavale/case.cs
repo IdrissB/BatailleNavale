@@ -8,18 +8,28 @@ namespace BatailleNavale
 {
     class Case
     {
-        int x;
-        int y;
-        Bateau b;
-
-        public Case()
+        Bateau bat;
+        public Bateau Bat               // Topic is a named parameter
         {
+            get
+            {
+                return bat;
+            }
+            set
+            {
+
+                bat = value;
+            }
         }
+
 
         public static Bateau isOccupated(){
-            return b;
+            return null;
         }
 
-
+        public static bool shooted()
+        {
+            return false;
+        }
     }
 }

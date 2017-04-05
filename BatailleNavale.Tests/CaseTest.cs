@@ -16,6 +16,8 @@ namespace BatailleNavale.Tests
         {
             Case c = new Case();
 
+            Assert.Equals(1,1);
+
         }
     }
 }

@@ -8,11 +8,11 @@ namespace BatailleNavale
 {
     class Grille
     {
-        Case[,] matCases;
+        ccase[,] matCases;
 
         public Grille(int x, int y)
         {
-            matCases = new Case[x,y];
+            matCases = new ccase[x,y];
         }
 
         public static Bateau caseIsOccupated(int x, int y){
