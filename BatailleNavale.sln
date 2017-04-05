@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatailleNavale", "BatailleNavale\BatailleNavale.csproj", "{C9A4BBC2-5E8F-4BA9-AE1D-B33960D12DF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatailleNavale.Tests", "BatailleNavale.Tests\BatailleNavale.Tests.csproj", "{283083B8-259D-4A6C-95CC-4A3A77D4DD89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C9A4BBC2-5E8F-4BA9-AE1D-B33960D12DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9A4BBC2-5E8F-4BA9-AE1D-B33960D12DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9A4BBC2-5E8F-4BA9-AE1D-B33960D12DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{283083B8-259D-4A6C-95CC-4A3A77D4DD89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283083B8-259D-4A6C-95CC-4A3A77D4DD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283083B8-259D-4A6C-95CC-4A3A77D4DD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283083B8-259D-4A6C-95CC-4A3A77D4DD89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
