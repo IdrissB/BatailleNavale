@@ -7,8 +7,9 @@ namespace BatailleNavale.Tests
     public class GrilleTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestConstruct()
         {
+
         }
     }
 }

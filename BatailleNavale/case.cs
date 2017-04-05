@@ -16,8 +16,10 @@ namespace BatailleNavale
         {
         }
 
-        public static bool isOccupated(){
-            return false;
+        public static Bateau isOccupated(){
+            return b;
         }
+
+
     }
 }
