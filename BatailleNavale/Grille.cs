@@ -8,15 +8,28 @@ namespace BatailleNavale
 {
     class Grille
     {
-        ccase[,] matCases;
+        Case[,] matCases;
+
+        public Case[,] MatCases               // Topic is a named parameter
+        {
+            get
+            {
+                return matCases;
+            }
+            set
+            {
+
+                matCases = value;
+            }
+        }
 
         public Grille(int x, int y)
         {
-            matCases = new ccase[x,y];
+            matCases = new Case[x,y];
         }
 
         public static Bateau caseIsOccupated(int x, int y){
-            return matCases[x, y].isOccupated();
+            return null;
         }
     }
 }

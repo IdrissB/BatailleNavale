@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BatailleNavale
 {
-    class Case
+    public class Case
     {
         Bateau bat;
         public Bateau Bat               // Topic is a named parameter
