@@ -1,12 +1,12 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace BatailleNavale.Tests
 {
-    [TestClass]
+    [TestFixture]
     public class GrilleTest
     {
-        [TestMethod]
+        [Test]
         public void TestConstruct()
         {
 

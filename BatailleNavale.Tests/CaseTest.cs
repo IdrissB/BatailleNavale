@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace BatailleNavale.Tests
 {
-    [TestClass]
+    [TestFixture]
     class CaseTest
     {
          
-        [TestMethod]
+        [Test]
         public void basicTest()
         {
             Case c = new Case();

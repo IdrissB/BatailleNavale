@@ -23,7 +23,7 @@ namespace BatailleNavale
         }
 
 
-        public static Bateau isOccupated(){
+        public Bateau isOccupated(){
             return null;
         }
 

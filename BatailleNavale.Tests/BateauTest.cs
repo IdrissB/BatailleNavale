@@ -1,13 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using BatailleNavale;
 
 namespace BatailleNavale.Tests
 {
-    [TestClass]
+    [TestFixture]
     public class BateauTest
     {
-        [TestMethod]
+        [Test]
         public void CreationBateauTest()
         {
             Bateau bateau = new Bateau();
